@@ -4,7 +4,9 @@
   "description": "",
   "main": "./dist.server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node ./src/server.ts",
+    "dev": "tsc && nodemon ./dist/server.js",
+    "prod": "tsc && nodemon ./dist/server.js"
   },
   "author": "Matt Hunt",
   "license": "ISC",
