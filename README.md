@@ -13,3 +13,6 @@
 | package-lock.json |                |        |                                                       |
 | package.json      |                |        | npm package list                                      |
 | tsconfig.json     |                |        | specify the root level files and the compiler options |
+
+{"name":{"first_name":"String","middle_name":"String","last_name":"String"},"email":" String","phone_number":" String","gender":" String"}
+
