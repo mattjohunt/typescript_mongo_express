@@ -31,7 +31,8 @@ private config(): void {
    }
 
 private mongoSetup(): void {
-    mongoose.connect(this.mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false})
+    
+    mongoose.connect(this.mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true, useFindAndModify: false });
 }
 }
 export default new App().app;
